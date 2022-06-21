@@ -1,0 +1,30 @@
+x=float(input("Digite a sua nota"))
+y=float(input("Digite a sua segunda nota"))
+media=(x+y)/2
+if(media>=9):
+    print("A")
+elif(media>=7.5):
+    print("B")
+elif(media>=6):
+    print("C")
+elif(media>=4):
+    print("D")
+else:
+    print('E')
+
+
+
+    
+Triangulo
+
+l1=float(input("Digite o primeiro lado:"))
+l2=float(input("Digite o segundo  lado:"))
+l3=float(input("Digite o terceiro lado:"))
+if l1>l3 or l2>l3:
+    print('Triangulo normal')
+elif l1==l2 or l2==l3 :
+    print('Triangulo equilatero')
+elif l1==l2 and l1==l3 or l2==l3:
+    print('Triangulo Isóceles')
+else:
+    print('Triangulo escaleno')
